@@ -1,0 +1,137 @@
+.accessibility-page{
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh + 150px);
+    background: #8f8d8d;
+    transform: translateX(+2200px);
+    transition: 0.5s;
+    overflow-y: scroll;
+
+}
+.acc{
+    overflow: hidden;
+}
+.acc-title{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    color: white;
+    font-size: 60px;
+    transform: translate(-50%);
+}
+.box-acc{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+.acc-name{
+    position: absolute;
+    font-size: 40px;
+    transform: translate(-50%);
+    color: white;
+    top: 10px;
+    left: 50%;
+}
+.acc-image{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 350px;
+    height: 350px;
+    background: var(--image);
+    background-size: cover;
+}
+.acc-detail{
+    position: absolute;
+    top: 415px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+.map-accb{
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 100px;
+}
+.map-name-acc{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.map-lahugala , .map-pottuwil{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+
+}
+.map-name{
+    position: absolute;
+    top: 0;
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.map-ifram{
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+
+}
+.dot4{
+    position: absolute;
+    top: 900px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+@media (max-width: 1500px){
+    .acc-title{
+        top: 100px;
+        font-size: 50px;
+    }
+    .box-acc{
+        display: grid;
+        grid-template-columns: 250px 250px 250px 250px;
+        justify-content: center;
+        grid-gap: 40px;
+    }
+    .acc{
+        top: 160px;
+        width: 280px;
+        height: 450px;
+        overflow: hidden;
+    }
+    .acc-name{
+        font-size: 30px;
+        top: 2px;
+    }
+    .acc-image{
+        top: 40px;
+        width: 250px;
+        height: 250px;
+    }
+    .acc-detail{
+        position: absolute;
+        top: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+        font-size: 13px;
+    }
+}

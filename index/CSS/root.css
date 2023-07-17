@@ -1,0 +1,51 @@
+:root{
+  --attraction-page: url(../IMG/attraction/1.jpg);
+  --home-page-background: url(../IMG/home/home.png);
+}
+
+
+:root[data-theme="dark"] {
+    /* ----------All Colours in page--------- */
+    --bg: #222327;
+    --page: #3d3d41d0;
+    --page-background: #f2f2f2;
+    
+  
+    --tx: #222327;
+    --welcome: #f5f5f5;
+    --title: #fff;
+    --hotel-title: #fff;
+    --Popular: #242323;
+  
+    --ico: #222327;
+    --ico-hover: #222327;
+    --ico-active: #222327;
+  
+    --nav: #969696b9;
+  
+    --cir: #05cdff;
+    /* -------------------------------------- */
+  }
+
+
+  :root[data-theme="light"] {
+    /* Light Theme Colors */
+    --bg: #f2f2f2;
+    --page: #ffffff;
+    
+    --page-background: #837777;
+
+    --tx: #222327;
+    --welcome: #ffffff;
+    --title: #ffffff;
+    --hotel-title: #ffffff;
+    --Popular: #000000;
+
+    --ico: #222327;
+    --ico-hover: #222327;
+    --ico-active: #222327;
+
+    --nav: #a3a1a1cc;
+
+    --cir: #05cdff;
+  }
