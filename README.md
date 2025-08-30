@@ -1,1 +1,1 @@
-# [Previe](https://pamod-madubashana.github.io/easternlk)
+# [Preview](https://pamod-madubashana.github.io/easternlk)
