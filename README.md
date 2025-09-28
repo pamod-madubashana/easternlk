@@ -1,1 +1,1 @@
-# [Preview](https://pamod-madubashana.github.io/easternlk)
+# [Preview](https://pamod.is-a.dev/easternlk/)
